@@ -89,23 +89,31 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'dist/bootstrap3-wysihtml5.min.js': [
+          /*'dist/bootstrap3-wysihtml5.min.js': [
             'src/generated/templates.js', 
             'src/bootstrap3-wysihtml5.js',
             'src/generated/commands.js', 
             'src/locales/bootstrap-wysihtml5.en-US.js'
-          ],
-          'dist/bootstrap3-wysihtml5.all.min.js': [
+          ],*/
+          /*'dist/bootstrap3-wysihtml5.all.min.js': [
             'components/wysihtml5x/dist/wysihtml5x-toolbar.js',
             'components/handlebars/handlebars.runtime.min.js',
             'src/generated/templates.js', 
             'src/bootstrap3-wysihtml5.js',
             'src/generated/commands.js', 
             'src/locales/bootstrap-wysihtml5.en-US.js'
-          ],
+          ],*/
+          'dist/bootstrap3-wysihtml5-tr.all.min.js': [
+            'components/wysihtml5x/dist/wysihtml5x-toolbar.js',
+            'components/handlebars/handlebars.runtime.min.js',
+            'src/generated/templates.js', 
+            'src/bootstrap3-wysihtml5.js',
+            'src/generated/commands.js', 
+            'src/locales/bootstrap-wysihtml5.tr-TR.js'
+          ]/*,
           'dist/amd/bootstrap3-wysihtml5.all.min.js': [
             'dist/amd/bootstrap3-wysihtml5.all.js'
-          ]
+          ]*/
         }
       }
     },
